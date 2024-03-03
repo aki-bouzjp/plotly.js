@@ -1,5 +1,6 @@
 var path = require('path');
 var NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
+var TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     target: ['web', 'es5'],
@@ -54,6 +55,18 @@ module.exports = {
     plugins: [
         new NodePolyfillPlugin({ includeAliases: ['process'] })
     ],
+    optimization: {
+        // minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                terserOptions: {
+                    compress: {
+                        drop_console: false,
+                    },
+                },
+            }),
+        ],
+    },
     watchOptions: {
         ignored: [
             '**/node_modules',

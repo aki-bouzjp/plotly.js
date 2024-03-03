@@ -427,6 +427,7 @@ function _hover(gd, evt, subplot, noHoverEvent, eventTarget) {
     // this is minimum dx and/or dy, depending on mode
     // and the pixel position for the label (labelXpx, labelYpx)
     function findHoverPoints(customXVal, customYVal) {
+        console.log('findHoverPoints');
         for(curvenum = 0; curvenum < searchData.length; curvenum++) {
             cd = searchData[curvenum];
 
@@ -615,6 +616,7 @@ function _hover(gd, evt, subplot, noHoverEvent, eventTarget) {
         }
     }
 
+    console.log(2);
     findHoverPoints();
 
     function selectClosestPoint(pointsData, spikedistance, spikeOnWinning) {
@@ -727,6 +729,7 @@ function _hover(gd, evt, subplot, noHoverEvent, eventTarget) {
         var winY = getCoord('y', winningPoint, fullLayout);
 
         // in compare mode, select every point at position
+        console.log(1);
         findHoverPoints(winX, winY);
 
         var finalPoints = [];
