@@ -137,7 +137,7 @@ The `geo` partial bundle contains trace modules `choropleth`, `scatter` and `sca
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 3.1 MB | 1.1 MB | 372.4 kB |
+| 3.1 MB | 1.1 MB | 372.3 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-geo-2.29.1.js
@@ -160,7 +160,7 @@ The `gl3d` partial bundle contains trace modules `cone`, `isosurface`, `mesh3d`,
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 3.6 MB | 1.5 MB | 493.2 kB |
+| 3.6 MB | 1.5 MB | 493.1 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-gl3d-2.29.1.js
@@ -183,7 +183,7 @@ The `gl2d` partial bundle contains trace modules `heatmapgl`, `parcoords`, `poin
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 4.4 MB | 1.9 MB | 599.7 kB |
+| 4.4 MB | 1.9 MB | 599.6 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-gl2d-2.29.1.js
@@ -206,7 +206,7 @@ The `mapbox` partial bundle contains trace modules `choroplethmapbox`, `densitym
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 4.4 MB | 1.7 MB | 531.3 kB |
+| 4.4 MB | 1.7 MB | 531.2 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-mapbox-2.29.1.js
@@ -229,7 +229,7 @@ The `finance` partial bundle contains trace modules `bar`, `candlestick`, `funne
 
 | Raw size | Minified size | Minified + gzip size |
 |------|-----------------|------------------------|
-| 2.8 MB | 1 MB | 358.8 kB |
+| 2.8 MB | 1.1 MB | 358.8 kB |
 
 #### CDN links
 > https://cdn.plot.ly/plotly-finance-2.29.1.js
